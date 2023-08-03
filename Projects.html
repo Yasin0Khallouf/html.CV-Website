@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Wix+Madefor+Text:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Yasin's Portfolio</title>
+        <style>
+
+            .header{
+                font-family: 'Wix Madefor Text'
+                
+            }
+            .nav-item > a{
+                color:#000;
+            }
+            ul > li {
+                padding: 5px 10px;
+                color: black;
+                height: 50px;
+            }
+            div.Tiltles{
+                margin-left: 17.5%;
+                margin-top: 130px;
+                height: 100px;
+            }
+            .Projects-Container{
+                width: 65%;
+                height: fit-content;
+                display: grid;
+                margin: 0 auto;
+                grid-template-columns: 1fr 330px 400px;
+                grid-template-rows: 1fr;
+            }
+            .WELD{
+                grid-area: 1/2;
+                display: flex;
+                flex-direction: column;
+                font-size: 21px;
+            }
+            .WELD div{
+                height: 330px;
+                width: 210px;
+            }
+
+            .WELI{
+                grid-area: 1/1;
+                font-size: 21px;
+            }
+            .WELI div{
+                height: 330px;
+            }
+            div h3{
+                font-size: 28px;
+            }
+            div p{
+                margin-bottom: 40px;
+                font-family: 'Roboto', sans-serif;
+            }
+            .Footer li{
+                list-style: none;
+            }
+
+            .Footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                list-style: none;
+            }
+            .Info{
+                height: 150px;
+                margin-top: 50px;
+            } 
+            .FO-Head{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .SF{
+                line-height: 1.4em;
+                font-size: 13px;
+            }
+            .INSPIC{
+                height: 30px;
+                margin-top:5%;
+            }
+            .Project1Pic img{
+                width: 491px;
+
+            } 
+             
+        </style>
+
+    </head>
+<body>
+    <!--/navigation Bar-->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Yasin Khallouf</span>
+        </a>
+      
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="./Resume.html" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="./Projects.html" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="./Contact-Me.html" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div class="Tiltles"><h1 style="font-size: 42px;">Projects</h1></div>
+
+<!-- Projects-->
+    <div class="Projects-Container">
+        <div class="WELI">
+            <div><h3>CV Website</h3><p>Moved items and tools from van to work locations. Check tools are in place. 
+                    Pass light materials and tools during installation <br>
+                    and ensure the working area remains tidy and clean. Listen to client requirements 
+                    during meetings and ensure to note down all key <br>
+                    activities.</p></div>
+        </div>
+
+        <div class="WELD">
+            <div class="Pic1">August 2023 - Present</div>
+        </div>
+        <div class="Project1Pic"><img src="./Assets/Images/Project Image.png" alt="Project Screenshot"></div>
+    </div>
+
+<hr>
+<!-- Footer -->
+<div class="Footer">
+    <div class="Info PN">
+        <ol>
+            <li class="FO-Head">Phone Number</li>
+            <li>+447388056559</li>
+        </ol>
+    </div>
+    <div class="Info EM">
+        <ol>
+            <li class="FO-Head">Email</li>
+            <li>y.khallouf10@gmail.com</li>
+        </ol>
+    </div>
+    <div class="Info LN">
+        <ol>
+            <li class="FO-Head">Follow Me</li>
+            <li><a href="https://instagram.com/khalloufyasin?igshid=MzRlODBiNWFlZA==" ><img class="INSPIC" src="./Assets/Images/Instagram-Icon.png" alt="Instagram Link"></a></li>
+        </ol>
+    </div>
+    <div class="Info SF">
+        <ol>
+            <li>© 2023 By Yasin Khallouf.</li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
